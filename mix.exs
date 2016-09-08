@@ -27,6 +27,6 @@ defmodule Divano.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:couchbeam, "~> 1.3"}]
   end
 end
